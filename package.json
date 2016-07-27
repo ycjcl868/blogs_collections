@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-nodemailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "cron": "^1.1.0",
+    "mysql": "^2.11.1",
+    "nodemailer": "*",
+    "nodemailer-smtp-transport": "^2.6.0"
+  }
+}
