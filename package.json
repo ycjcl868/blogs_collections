@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +15,8 @@
     "cron": "^1.1.0",
     "mysql": "^2.11.1",
     "nodemailer": "*",
-    "nodemailer-smtp-transport": "^2.6.0"
-  }
+    "nodemailer-smtp-transport": "^2.6.0",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
